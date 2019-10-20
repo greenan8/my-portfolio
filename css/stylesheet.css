@@ -1,0 +1,142 @@
+*{
+    font-family: 'Roboto Mono', monospace;
+    background-color: #F5F5F5!important;
+}
+
+nav{
+    height: 15vh;
+    
+}
+
+nav li a{
+    font-size: 1.25rem!important;
+    text-transform: capitalize!important;
+}
+header{
+    
+}
+header h1{
+    font-size: calc(1.5rem + 3.5vw);
+    color: #94D1BE;
+    text-shadow: 2px 2px 2px #B5B5B5;
+
+
+}
+header p{
+    font-size: calc(1rem + 0.3vw);
+}
+
+#about-me #window{
+    margin-top: 10vh;
+    background-color: #5A5D7A!important;
+    width: 100%;
+    border-radius: 25px 25px 0 0;
+    padding-bottom: 2rem;
+}
+#about-me #window #top-bar{
+    width: calc(100%-1rem);
+    height: 2rem;
+    background-color: #D5D5D5!important;
+    border-radius: 20px 20px 0 0;
+    padding-left: 1rem;
+}
+
+#about-me #close, #min, #max{
+    margin: 0.5rem 0;
+    width: 1rem;
+    height: 1rem;
+    border-radius: 1rem;
+    display: inline-block;
+}
+
+#about-me #close{background-color: #ff6961!important;}
+#about-me #min{ background-color: #fdfd96!important;}
+#about-me #max{ background-color: #94D1BE!important;}
+
+#about-me #main-content p{
+    background-color: #5A5D7A!important;
+    color: #fdfd96;
+    margin: 0;
+    padding: 0 3rem;
+    font-size: calc(0.8rem + 0.3vw); 
+}
+#about-me #main-content a{
+    color: #94D1BE;
+    background-color: #5A5D7A!important; 
+   
+}
+#about-me #main-content a:visited{
+    color: #a5d6f7;
+}
+#about-me #main-content .andrew-header{
+    padding-top: 1.5rem;
+    color: white;
+}
+
+
+#cursor {
+    font-size: calc(0.9rem + 0.3vw); 
+    background-color: #5A5D7A!important; 
+    -webkit-animation: 1.5s blink step-end infinite;
+    -moz-animation: 1.5s blink step-end infinite;
+    -ms-animation: 1.5s blink step-end infinite;
+    -o-animation: 1.5s blink step-end infinite;
+    animation: 1.5s blink step-end infinite;
+  }
+  
+  @keyframes "blink" {
+    from, to {
+      color: transparent;
+    }
+    50% {
+      color: white;
+    }
+  }
+  
+  @-moz-keyframes blink {
+    from, to {
+      color: transparent;
+    }
+    50% {
+      color: white;
+    }
+  }
+  
+  @-webkit-keyframes "blink" {
+    from, to {
+      color: transparent;
+    }
+    50% {
+      color: white;
+    }
+  }
+  
+  @-ms-keyframes "blink" {
+    from, to {
+      color: transparent;
+    }
+    50% {
+      color: white;
+    }
+  }
+  
+  @-o-keyframes "blink" {
+    from, to {
+      color: transparent;
+    }
+    50% {
+      color: white;
+    }
+  }
+
+
+
+
+
+
+
+
+
+#projects{
+    height: 50vh;
+}

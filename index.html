@@ -1,12 +1,74 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 <meta charset="UTF-8">
+
 <title>Andrew Greenan</title>
+
+<link rel="stylesheet" type="text/css" href="css/stylesheet.css"/>
+<link rel="stylesheet" type="text/css" href="css/uikit.min.css"/>
+<link href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
-    <h1>Andrew Greenan</h1>
+ <div class="uk-container uk-container-medium">
+        <nav class="uk-navbar-container" uk-navbar>
+                <div class="uk-navbar-right">
+                    <ul class="uk-navbar-nav">
+                        <li><a href="#about-me" uk-scroll>About Me</a></li>
+                        <li><a href="#projects" uk-scroll>Projects</a></li>
+                        <li><a href=""></a></li>
+                    </ul>
+                </div>
+         </nav>
+        <header>
+            <h1 class="uk-text-nowrap">> <span id="typing">Andrew Greenan</span></h1>
+            <p>
+                I am software developer studying at Queen's University in Kingston, Ontario. 
+            </p>
+        </header> 
+        <section id="about-me">
+            <div id="window">
+                <div id="top-bar">
+                    <div id="close"></div>
+                    <div id="min"></div>
+                    <div id="max"></div>
+                </div>
+                <div id="main-content">
+                    <p class="andrew-header">> andrew.currentLocation</p>
+                    <p>"Kingston, Ontario"</p>
+
+                    <p class="andrew-header">> andrew.contactInfo</p>
+                    <p>["<a href="mailto:andrew.greenan@queensu.ca">andrew.greenan@queensu.ca</a>","<a href="https://www.linkedin.com/in/andrewbgreenan/">Linkedin</a>", "<a href="https://github.com/greenan8">Github</a>"]</p>
+
+                    <p class="andrew-header">> andrew.resume</p>
+                    <p>"<a href="resume/Andrew Greenan - 2019 Resume.pdf">resume.pdf</a>"</p>
+                    
+                    <p  class="andrew-header">> andrew.education</p>
+                    <p >["Bachelor's of Commerce - Smith School of Business", <br/>
+                        "Bachelor's of Computing - Queen's School of Computing"]</p>
+
+                    <p  class="andrew-header">> andrew.skills</p>
+                    <p>["HTML", "CSS", "Javascript", "Python", "Java", "C", "Linux", "Node", "jQuery"]</p>
+
+                    <p  class="andrew-header">> <span id="cursor"> | </span></p>
+                </div>
+            </div>
+
+        </section>
+        <section id="projects">
+
+        </section>    
+        <footer>
+
+        </footer> 
+</div>
+
+
+  <!-- UIkit JS and JS -->
+  <script src="js\uikit.min.js"></script>
+  <script src="js\uikit-icons.min.js"></script>
 </body>
 
 </html>
