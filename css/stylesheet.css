@@ -1,4 +1,4 @@
-*{
+body, nav{
     font-family: 'Roboto Mono', monospace;
     background-color: #F5F5F5!important;
 }
@@ -26,6 +26,9 @@ header p{
     font-size: calc(1rem + 0.3vw);
 }
 
+section{
+  padding: 3vh 0;
+}
 #about-me #window{
     margin-top: 10vh;
     background-color: #5A5D7A!important;
@@ -59,6 +62,7 @@ header p{
     margin: 0;
     padding: 0 3rem;
     font-size: calc(0.8rem + 0.3vw); 
+    word-wrap: break-word;
 }
 #about-me #main-content a{
     color: #94D1BE;
@@ -130,13 +134,33 @@ header p{
   }
 
 
+#projects-courses #projects-courses-toggle{
+  display: flex;
+  justify-content: center;
+}
 
+#projects-courses #projects-courses-toggle button{
+  text-transform: capitalize;
+  font-size: 1.5rem;
+  color: #5A5D7A!important;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+}
 
+#projects-courses .uk-card-footer{
+  display: flex;
+  justify-content: center;
+}
 
-
-
-
-
-#projects{
-    height: 50vh;
+#projects-courses .uk-card-footer a{
+  width: 50%;
+  color: rgb(81, 143, 123);
+  text-align: center;
+  font-size: 1.2rem;
+}
+#projects-courses .uk-card-footer a:hover{
+  color: rgb(43, 107, 87);
+  text-decoration: none;
+ 
 }
