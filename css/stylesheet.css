@@ -137,8 +137,8 @@ section{
 #projects-courses #projects-courses-toggle{
   display: flex;
   justify-content: center;
-  padding-top: 5vh;
-  padding-bottom: 8vh;
+  padding-top: 6vh;
+  padding-bottom: 4vh;
 }
 
 #projects-courses #projects-courses-toggle button{
