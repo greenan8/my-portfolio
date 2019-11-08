@@ -148,6 +148,10 @@ section{
   border-left: none;
   border-right: none;
   border-top: none;
+  border-color: #5A5D7A55;
+}
+#projects-courses #projects-courses-toggle button.uk-active{
+  border-color: #5A5D7A;
 }
 
 #projects-courses .uk-card-footer{
@@ -165,4 +169,22 @@ section{
   color: rgb(43, 107, 87);
   text-decoration: none;
  
+}
+
+#projects-courses .uk-card-body{
+  height: 8rem;
+}
+
+footer{
+  border-top: 1px solid #5A5D7A;
+  margin-top: 4vh;
+  height: 10vh;
+  padding-top: 4vh;
+}
+footer h2, footer p{
+  color: #5A5D7A;
+  width: 100%;
+  text-align: center;
+  padding: 0;
+  margin: 0;
 }
