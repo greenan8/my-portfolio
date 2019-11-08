@@ -175,6 +175,10 @@ section{
   height: 8rem;
 }
 
+#projects-courses .qc{
+  height: 1rem;
+}
+
 footer{
   border-top: 1px solid #5A5D7A;
   margin-top: 4vh;
