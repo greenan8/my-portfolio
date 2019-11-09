@@ -12,20 +12,20 @@ nav li a{
     font-size: calc(1rem + 0.5vw)!important;
     text-transform: capitalize!important;
 }
-
+header{
+  margin-top: 10vh;
+}
 header h1{
     font-size: calc(1.5rem + 3.5vw);
     color: #94D1BE;
     text-shadow: 2px 2px 2px #B5B5B5;
-
-
 }
 header p{
     font-size: calc(1rem + 0.3vw);
 }
 
 section{
-  padding: 3vh 0;
+  padding-top: 2vh 0;
 }
 #about-me #window{
     margin-top: 10vh;
@@ -135,8 +135,8 @@ section{
 #projects-courses #projects-courses-toggle{
   display: flex;
   justify-content: center;
-  padding-top: 6vh;
-  padding-bottom: 4vh;
+  padding-top: 10vh;
+  padding-bottom: 3vh;
 }
 
 #projects-courses #projects-courses-toggle button{
