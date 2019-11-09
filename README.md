@@ -1,2 +1,2 @@
 # Portfolio
-My Personal Portfolio site to display all my projects and courses.
+My personal portfolio webpage to display all my projects and courses.
