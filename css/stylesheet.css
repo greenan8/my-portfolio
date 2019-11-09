@@ -9,12 +9,10 @@ nav{
 }
 
 nav li a{
-    font-size: 1.25rem!important;
+    font-size: calc(1rem + 0.5vw)!important;
     text-transform: capitalize!important;
 }
-header{
-    
-}
+
 header h1{
     font-size: calc(1.5rem + 3.5vw);
     color: #94D1BE;
@@ -172,11 +170,11 @@ section{
 }
 
 #projects-courses .uk-card-body{
-  height: 8rem;
+  height: calc(10rem - 1vw);
 }
 
 #projects-courses .qc{
-  height: 1rem;
+  height: calc(2rem - 1vw);
 }
 
 footer{
