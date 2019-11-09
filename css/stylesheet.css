@@ -170,7 +170,7 @@ section{
 }
 
 #projects-courses .uk-card-body{
-  height: calc(15rem - 1vw);
+  height: calc(18rem + 5vw);
 }
 
 #projects-courses .uk-card-body span{
