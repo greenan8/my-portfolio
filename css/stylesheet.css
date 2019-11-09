@@ -169,9 +169,6 @@ section{
  
 }
 
-#projects-courses .uk-card-body{
-  height: calc(18rem + 5vw);
-}
 
 #projects-courses .uk-card-body span{
   color:  rgb(43, 107, 87);
@@ -182,8 +179,13 @@ section{
   display: inline-block;
 }
 
-#projects-courses .qc{
-  height: calc(2rem - 1vw);
+#projects-courses .descript{
+  height: 10rem;
+}
+
+#projects-courses .technology{
+  height: 92px;
+  padding-bottom: 30px;
 }
 
 footer{
