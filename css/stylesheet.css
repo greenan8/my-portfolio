@@ -11,7 +11,13 @@ nav{
 nav li a{
     font-size: calc(1rem + 0.5vw)!important;
     text-transform: capitalize!important;
+    color: #5A5D7ABB!important;
 }
+
+nav li a:hover{
+  color: #5A5D7A!important;
+}
+
 header{
   margin-top: 10vh;
 }
@@ -147,6 +153,10 @@ section{
   border-right: none;
   border-top: none;
   border-color: #5A5D7A55;
+}
+
+#projects-courses #projects-courses-toggle button:hover{
+  border-color: #5A5D7A;
 }
 #projects-courses #projects-courses-toggle button.uk-active{
   border-color: #5A5D7A;
